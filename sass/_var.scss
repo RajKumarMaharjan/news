@@ -1,0 +1,9 @@
+$white:#fff;
+$black:#1E1E1E;
+$yellow:#FF9F1C;
+
+@mixin res {
+    @media (max-width:480px) {
+        @content;
+    }
+}

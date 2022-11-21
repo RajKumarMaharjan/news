@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #1E1E1E;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header img {
+  width: 100%;
+  position: relative;
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
+}
+
+header .head-nav {
+  position: absolute;
+  top: 20px;
+}
+
+header .head-nav .navbar {
+  width: 100%;
+}
+
+header .head-nav .navbar img {
+  width: 60%;
+  padding-left: 50px;
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
+}
+
+header .head-nav .navbar .navbar-nav {
+  padding-left: 170px;
+}
+
+header .head-nav .navbar .navbar-nav a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+header .head-nav .navbar .navbar-nav a:hover {
+  color: #973220;
+}
+
+header .head-nav h1 {
+  text-transform: capitalize;
+  font-size: 54px;
+  font-weight: bold;
+  margin-top: 200px;
+  color: #fff;
+  margin-left: 200px;
+}
+
+header .head-nav h1 span {
+  color: #FF9F1C;
+}
+
+header .head-nav p {
+  color: #fff;
+  margin: 20px 0px;
+  padding-left: 200px;
+}
+
+header .head-nav button {
+  background-color: #FF9F1C;
+  border: none;
+  padding: 15px 35px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  border: 2px solid #FF9F1C;
+  text-transform: capitalize;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+header .head-nav button:hover {
+  background: none;
+}
+
+.second-title {
+  background: #F9F9F9;
+  margin-top: -100px;
+}
+
+.second-title .place {
+  padding: 90px;
+}
+
+.second-title .place .popular h1 {
+  font-size: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-top: 100px;
+  color: #3d3b3b;
+  margin-bottom: 50px;
+}
+
+.second-title .place .bttn {
+  margin-left: 860px;
+  margin-bottom: 20px;
+}
+
+.second-title .place .bttn i {
+  border: 1px solid #FF9F1C;
+  padding: 6px 13px;
+  font-size: 18px;
+  font-weight: 400;
+  background: #FF9F1C;
+  color: #fff;
+}
+
+.second-title .place .owl-carousel .item .chart {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.second-title .place .owl-carousel .item .chart h2 {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.second-title .place .owl-carousel .item .chart h3 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.second-title .place .owl-carousel .item .chart h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #FF9F1C;
+}
+
+.second-title .place .owl-carousel .item .chart h4 del {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */
